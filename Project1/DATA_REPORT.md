@@ -46,13 +46,13 @@ The dataset contains healthcare related information including patient names, age
 | Column | Data Type |
 |---------|-----------|
 | Patient Name | string |
-| Age | float64 |
+| Age | int |
 | Gender | string |
 | Condition | string |
 | Medication | string |
 | Visit Date | datetime64 |
 | Blood Pressure | string |
-| Cholesterol | float64 |
+| Cholesterol | int |
 | Email | string |
 | Phone Number | string |
 
