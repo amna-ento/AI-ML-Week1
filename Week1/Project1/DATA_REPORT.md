@@ -266,6 +266,16 @@ Most cholesterol values fall between 160 and 220.
 
 Email contains the highest number of missing values.
 
+## 6. Relation 
+
+| Condition        | Female | Male | Other |
+|-----------------|--------|------|-------|
+| Asthma          | 164    | 127  | 126   |
+| Diabetes        | 68     | 80   | 57    |
+| Heart Disease   | 65     | 74   | 68    |
+| Hypertension    | 51     | 62   | 58    |
+
+
 # Conclusion
 
 The healthcare dataset was successfully cleaned and prepared for future analysis and machine learning tasks. Invalid values were corrected, inconsistent formatting was standardized, missing values were handled according to the characteristics of each feature, and duplicate and outlier checks were completed. Email addresses and phone numbers were intentionally left with missing values because they are unique identifiers and cannot be accurately inferred. The cleaned dataset is now in a consistent and reliable state for subsequent exploratory data analysis and model development.
