@@ -236,6 +236,57 @@ The dataset is now suitable for reliable exploratory data analysis, visualizatio
 
 ---
 
-# 8. Conclusion
+# 8. Exploratory Analysis of the Cleaned Dataset
+
+## 8.1 Repeated Customer Transactions
+
+![Image Description](rc.png)
+
+
+| Customer_ID | Number_of_Transactions |
+|-------------|-----------------------:|
+| C4710 | 7 |
+| C4308 | 6 |
+| C3808 | 6 |
+| C4361 | 6 |
+| C694 | 6 |
+| ... | ... |
+| C2541 | 2 |
+| C2064 | 2 |
+| C3822 | 2 |
+| C619 | 2 |
+| C1678 | 2 |
+
+
+---
+
+## 8.2 Payment Method by Transaction Status
+
+![Image Description](aa.png)
+
+
+| Payment Method | Completed | Failed | Pending | Unknown |
+|----------------|----------:|-------:|--------:|--------:|
+| Cash | 422 | 140 | 151 | 125 |
+| Credit Card | 1,271 | 432 | 405 | 427 |
+| PayPal | 1,303 | 420 | 433 | 404 |
+
+---
+
+## 8.3 Product Name by Transaction Status
+
+![Image Description](bb.png)
+
+
+| Product Name | Completed | Failed | Pending | Unknown |
+|--------------|----------:|-------:|--------:|--------:|
+| Coffee Maker | 596 | 186 | 191 | 191 |
+| Headphones | 557 | 179 | 203 | 213 |
+| Laptop | 586 | 214 | 208 | 169 |
+| Smartphone | 642 | 213 | 189 | 195 |
+| Tablet | 615 | 200 | 198 | 188 |
+---
+
+# 9. Conclusion
 
 The financial transactions dataset was successfully cleaned and validated. All major data quality issues identified during the initial assessment were resolved, resulting in a consistent, accurate, and analysis-ready dataset. The cleaned dataset can now be confidently used for further analytical tasks, reporting, and predictive modeling.
