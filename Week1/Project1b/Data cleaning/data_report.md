@@ -217,28 +217,9 @@ This line chart demonstrates that transaction dates have been successfully stand
 
 ---
 
-# 7. Final Dataset Summary
+# 7. Exploratory Analysis of the Cleaned Dataset
 
-After completing the cleaning process:
-
-- Missing values were handled.
-- Duplicate records were removed.
-- Data types were corrected.
-- Invalid dates were removed.
-- Invalid prices were removed.
-- Invalid quantities were removed.
-- Product names were standardized.
-- Payment methods were standardized.
-- Transaction statuses were standardized.
-- Formatting inconsistencies were eliminated.
-
-The dataset is now suitable for reliable exploratory data analysis, visualization, dashboard development, and machine learning applications.
-
----
-
-# 8. Exploratory Analysis of the Cleaned Dataset
-
-## 8.1 Repeated Customer Transactions
+## 7.1 Repeated Customer Transactions
 
 ![Image Description](rc.png)
 
@@ -260,7 +241,7 @@ The dataset is now suitable for reliable exploratory data analysis, visualizatio
 
 ---
 
-## 8.2 Payment Method by Transaction Status
+## 7.2 Payment Method by Transaction Status
 
 ![Image Description](aa.png)
 
@@ -273,7 +254,7 @@ The dataset is now suitable for reliable exploratory data analysis, visualizatio
 
 ---
 
-## 8.3 Product Name by Transaction Status
+## 7.3 Product Name by Transaction Status
 
 ![Image Description](bb.png)
 
@@ -286,6 +267,27 @@ The dataset is now suitable for reliable exploratory data analysis, visualizatio
 | Smartphone | 642 | 213 | 189 | 195 |
 | Tablet | 615 | 200 | 198 | 188 |
 ---
+
+# 8. Final Dataset Summary
+
+After completing the cleaning process:
+
+- Missing values were handled.
+- Duplicate records were removed.
+- Data types were corrected.
+- Invalid dates were removed.
+- Invalid prices were removed.
+- Invalid quantities were removed.
+- Product names were standardized.
+- Payment methods were standardized.
+- Transaction statuses were standardized.
+- Formatting inconsistencies were eliminated.
+
+The dataset is now suitable for reliable exploratory data analysis, visualization, dashboard development, and machine learning applications.
+
+---
+
+
 
 # 9. Conclusion
 
