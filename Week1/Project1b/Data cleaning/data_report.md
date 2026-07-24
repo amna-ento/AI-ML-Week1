@@ -221,7 +221,7 @@ This line chart demonstrates that transaction dates have been successfully stand
 
 ## 7.1 Repeated Customer Transactions
 
-![Image Description](rc.png)
+![Image Description](RC.png)
 
 
 | Customer_ID | Number_of_Transactions |
