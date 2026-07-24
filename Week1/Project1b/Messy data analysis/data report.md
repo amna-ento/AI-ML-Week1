@@ -218,7 +218,7 @@ This visualization highlights the distribution of missing values across all colu
 This chart compares the number of duplicate and unique records in the dataset, providing an overview of duplicate entries that may affect analysis accuracy.
 
 ### Visual
-![Duplicate vs. Unique Rows](du.png)
+![Duplicate vs. Unique Rows](DU.png)
 
 ---
 
